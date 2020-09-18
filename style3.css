@@ -1,0 +1,203 @@
+html
+{
+	height : 100%;
+	min-height: 200%;
+}	
+
+body
+{
+	color: #222;
+}	
+#hautdepage
+{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr 50px 50px 50px 50px;
+    margin: 0 20px;
+ 
+}
+
+#gmail
+{
+	justify-self: center;
+	align-self: center;
+	margin-right: 20px;
+}
+#images
+{
+	justify-self: center;
+	align-self: center;
+	margin-right: 20px;
+}
+#Logo
+{
+	justify-self: center;
+	align-self: flex-end;
+	height: 30px;
+	width: 30px;
+	margin-top: 30px;
+
+}
+#connexion
+{
+	justify-self: center;
+	align-self: center;
+	padding: 0px 12px; 
+	font: 13px arial, sans-serif;
+	font-weight: bold;
+	border : 1px solid #4285f4;
+	outline: none;
+	background:-webkit-linear-gradient(top,#4387fd,#4683ea) ;
+	color : white;
+	height: 30px;
+	width: 93.17px;
+
+
+}
+
+
+a, p	
+{
+	text-decoration: none;
+	color: #222;
+	font-family: arial,sans-serif;
+	font-size: small;
+
+}
+
+#principal
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 250px 70px 70px 250px;
+	grid-template-areas: 
+	". Logogoogle ."
+	". rechercher ."
+	". flexbox .";
+
+}
+
+#Logogoogle
+{
+	grid-area: Logogoogle;
+	justify-content: center;
+	align-self: flex-end;
+	margin-left: 105px;
+	padding-top: 109px;
+
+
+}
+
+#rechercher
+{
+	grid-area: rechercher;
+	height: 44px;
+	width: 582px;
+	align-self: center;
+	justify-self: center;
+	border: 1px solid lightgray;
+	border-radius: 30px;
+	box-shadow: 0.5px 0.5px 3px gray;
+}
+#flexbox
+{
+	display: flexbox;
+	grid-area: flexbox;
+	justify-content: space-around;
+	align-self: center;
+	margin-left: 105px;
+}
+
+#Bouton-Recherche-google
+{
+	border:none;
+	font-size: 15px;
+	color: ;
+	margin: 4px 11px;
+	border : 1px 1px;
+	padding: 16px;
+
+}
+
+#Boutton-Jai-de-la-chance
+{
+	border:none;
+	font-size: 15px;
+	color: ;
+	margin: 4px 11px;
+	border : 1px 1px;
+	padding: 16px;
+}
+#basdepage
+{
+
+	display: grid;
+	grid-template-columns: 70px 70px 70px 610px 220px 70px 70px 70px 70px;
+	grid-template-rows: 40px;
+	grid-template-areas: "pub Entreprise apropos Aide infoconso conf conditions parametres";
+	align-self: center;
+}
+
+#pub
+{
+	grid-area: pub;
+	justify-self: center;
+	align-self: center;
+}	
+#Entreprise
+{
+	grid-area: Entreprise;
+	justify-self: center;
+	align-self: center;
+}	
+#apropos
+{
+	grid-area: apropos;
+	justify-self: center;
+	align-self: center;
+}	
+#Aide
+{
+	grid-area: Aide;
+	justify-self: center;
+	align-self: center;
+	margin-right: 350px;
+}	
+
+#infoconso
+{
+	grid-area: infoconso;
+	justify-self: center;
+	align-self: center;
+	margin-left: 400px;
+}	
+#conf
+{
+	grid-area: conf;
+	justify-self: center;
+	align-self: center;
+	margin-left: 400px;
+}	
+#conditions
+{
+	grid-area: conditions;
+	justify-self: center;
+	align-self: center;
+	margin-left: 450px;
+}	
+#parametres
+{
+	grid-area: parametres;
+	justify-self: center;
+	align-self: center;
+	margin-left: 500px
+
+}	
+
+
+#France
+{
+	font-style: 15px arial sans-serif;
+}	
+
+
